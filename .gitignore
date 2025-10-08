@@ -205,3 +205,52 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# ignore specific ipynb files
+copernicus/composite_data_wrangling.ipynb
+copernicus/copernicus_norm_variable_fill.ipynb
+copernicus/discarded/
+copernicus/how-to-get-data-using-harmonized-data-access.ipynb
+copernicus/psc_copernicus_no_fill.ipynb
+copernicus/psc_copernicus_one-percent_fill.ipynb
+copernicus/psc_copernicus.ipynb
+copernicus/raw_data/
+kostadinov/charts/
+kostadinov/data/
+kostadinov/logs/
+kostadinov/lightning_logs/
+kostadinov/models/
+kostadinov/output/
+kostadinov/pinn.ipynb
+kostadinov/pinn_inverse.ipynb
+kostadinov/psc_kostadinov_no_fill.ipynb
+kostadinov/rough_analysis/
+modis/charts/
+modis/data/
+modis/modis_chla_data.xlsx
+modis/psc_modis_aqua.ipynb
+modis/psc_modis_no_fill.ipynb
+ncar_esm2/charts/
+ncar_esm2/psc_ncar_cesm2_nofill.ipynb
+ncar_esm2/psc_ncar_cesm2_reanalysis.ipynb
+ale/charts/
+ale/ale_giss_cesm.ipynb
+ale/ale_obs.ipynb
+ale/ALE.ipynb
+ale/pdps.ipynb
+ale/ale_cesm.ipynb
+ale/ale_cesm_month_averaged.ipynb
+# Ignore NetCDF files
+*.nc
+*.sav
+*.jpg
+*.jpeg
+*.png
+# Ignore Jupyter notebook checkpoints
+*.ipynb_checkpoints
+# Ignore system files
+.DS_Store
+
+
+
+>>>>>>> 39ef89a (Added files that need tracking)
